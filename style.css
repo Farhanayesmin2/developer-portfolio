@@ -1,0 +1,37 @@
+body{
+
+    margin: 0;
+    font-family: 'Poppins', sans-serif;}
+
+.color{
+font-weight: 700;
+    color: aquamarine;
+}
+h1{
+    font-size: 25px;
+}
+section{
+    display: flex;
+}
+.half-width{
+    margin-top: 15px;
+text-align: justify;
+    width:50%;
+    padding-left: 5%;
+}
+.half-width img{
+    
+    width: 110%;
+}
+.hire-btn{
+    text-decoration: none;
+background-image: linear-gradient(gray,aqua);
+    padding: 8px 30px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-weight: 700;
+}
+.top-banner{
+    background-image: url(./images/top-banner.png);
+   background-repeat: no-repeat;
+}
