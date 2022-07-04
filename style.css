@@ -8,7 +8,7 @@ font-weight: 700;
     color: aquamarine;
 }
 h1{
-    font-size: 25px;
+    font-size: 50px;
 }
 section{
     display: flex;
@@ -21,12 +21,12 @@ text-align: justify;
 }
 .half-width img{
     
-    width: 110%;
+    width: 100%;
 }
 .hire-btn{
     text-decoration: none;
 background-image: linear-gradient(gray,aqua);
-    padding: 8px 30px;
+    padding: 10px 40px;
     border-radius: 5px;
     color: aliceblue;
     font-weight: 700;
@@ -34,4 +34,30 @@ background-image: linear-gradient(gray,aqua);
 .top-banner{
     background-image: url(./images/top-banner.png);
    background-repeat: no-repeat;
+}
+.download-btn{
+
+    text-decoration: none;
+    background-image: linear-gradient(gray,aqua);
+        padding: 8px 30px;
+        border-radius: 5px;
+        color: aliceblue;
+        font-weight: 700;
+
+}
+.width-second{
+   text-align: justify;
+    width:50%;
+    padding-left: 5%;
+    padding-right: 2%;
+}
+.width-second img{
+    width: 100%;
+
+}
+.dream-big{
+
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+  background-position: right;
 }
